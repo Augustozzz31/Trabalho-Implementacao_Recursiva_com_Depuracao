@@ -1,7 +1,15 @@
 # Trabalho-Implementacao_Recursiva_com_Depuracao
 
 ## Relato Step Over
->escreva o relato
+>1- Breackpoit linha 5: O Scanner é instanaciado.
+ 
+>2- Linha 6: É criado um vetor do tipo inteiro, chamado vet, que armazena até 5 valores.  
+
+>3- Linha 7: São criadas duas variáveis do tipo inteiro, uma chamada num e a outra cont, ambas recebendod o valor de 0.
+
+>4- Linha 8: Ocorre a chamada de um método recursivo com nome Menu, a qual recebe quatro parâmetros, sendo eles respectivamente sc, num, vet e cont.
+
+>5- Linha 9: Ocorre o fechamendo do Scanner.
 
 ## Relato Step Into
 >1- Breakpoint Linha 5: Ocorre a instanciação do Scanner.
@@ -123,3 +131,20 @@
 >55- Linha 10: Vai para o fechamento das chaves do public static void main(String[] args).
 
 >Fim do programa
+
+## Relato de Step Into e Step Over com Step Out
+>1- Breakpoint Linha 5: O Scanner é instanciado.
+
+>2- (Step Over) Linha 6: É criado um vetor do tipo inteiro, chamado vet, que armazena até 5 valores.  
+
+>3- (Step Over) Linha 7: São criadas duas variáveis do tipo inteiro, uma chamada num e a outra cont, ambas recebendod o valor de 0.
+
+>4- (Step Over) Linha 8: Ocorre a chamada de um método recursivo com nome Menu, a qual recebe quatro parâmetros, sendo eles respectivamente sc, num, vet e cont.
+
+>5- (Step Into) Linha 13: É mostrada a mensagem "preencha o valor de 5 números: "
+
+>6- (Step Over) Linha 14: O vetor vet recebe como valor inteiro a entrada do usuário.
+
+>7- (Step Over) Linha 15: A variável num recebe 1 em seu valor.
+
+>8- () linha 16: 
