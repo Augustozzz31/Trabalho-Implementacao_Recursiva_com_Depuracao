@@ -1,7 +1,7 @@
 # Trabalho-Implementacao_Recursiva_com_Depuracao
 
 ## Relato Step Over
->1- Breackpoit linha 5: O Scanner é instanaciado.
+>1- Breakpoit linha 5: O Scanner é instanaciado.
  
 >2- Linha 6: É criado um vetor do tipo inteiro, chamado vet, que armazena até 5 valores.  
 
