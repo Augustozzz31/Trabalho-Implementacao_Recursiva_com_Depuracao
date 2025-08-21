@@ -141,10 +141,64 @@
 
 >4- (Step Over) Linha 8: Ocorre a chamada de um método recursivo com nome Menu, a qual recebe quatro parâmetros, sendo eles respectivamente sc, num, vet e cont.
 
->5- (Step Into) Linha 13: É mostrada a mensagem "preencha o valor de 5 números: "
+>5- (Step Into) Linha 13: É mostrada a mensagem "preencha o valor de 5 números: ".
 
 >6- (Step Over) Linha 14: O vetor vet recebe como valor inteiro a entrada do usuário.
 
 >7- (Step Over) Linha 15: A variável num recebe 1 em seu valor.
 
->8- () linha 16: 
+>8- (Step Over) linha 16: É verificado através do if, uma condicional, se num é igual a 5. Como a condicional é falsa, o bloco de código dentro do if não é executado.
+
+>9- (Step Over) Linha 20: É chamado o método recursivo Menu.
+
+>10- (Step Into) Linha 13: É mostrada a mensagem "preencha o valor de 5 números: ".
+
+>11- (Step Over) Linha 14: O vetor vet recebe como valor inteiro a entrada do usuário.
+
+>12- (Step Over) Linha 15: A variável num recebe 1 em seu valor, portanto, num agora vale 2.
+
+>13- (Step Over) Linha 16: É verificado através do if, uma condicional, se num é igual a 5. Como a condicional é falsa, o bloco de código dentro do if não é executado.
+
+>15- (Step OVer) Linha 20: É chamado o método recursivo Menu.
+
+>16- (Step Into) Linha 13: É mostrada a mensagem "preencha o valor de 5 números: ".
+
+>17- (Step Over) Linha 14: O vetor vet recebe como valor inteiro a entrada do usuário.
+
+>18- (Step Over) Linha 15: A variável num recebe 1 em seu valor, portanto, num agora vale 3.
+
+>19- (Step Over) Linha 16: É verificado através do if, uma condicional, se num é igual a 5. Como a condicional é falsa, o bloco de código dentro do if não é executado.
+
+>20- (Step OVer) Linha 20: É chamado o método recursivo Menu.
+
+>21- (Step Into) Linha 13: É mostrada a mensagem "preencha o valor de 5 números: ".
+
+>22- (Step Over) Linha 14: O vetor vet recebe como valor inteiro a entrada do usuário.
+
+>23- (Step Over) Linha 15: A variável num recebe 1 em seu valor, portanto, num agora vale 4.
+
+>25- (Step Over) Linha 16: É verificado através do if, uma condicional, se num é igual a 5. Como a condicional é falsa, o bloco de código dentro do if não é executado.
+
+>26- (Step OVer) Linha 20: É chamado o método recursivo Menu.
+
+>27- (Step Into) Linha 13: É mostrada a mensagem "preencha o valor de 5 números: ".
+
+>28- (Step Over) Linha 14: O vetor vet recebe como valor inteiro a entrada do usuário.
+
+>29- (Step Over) Linha 15: A variável num recebe 1 em seu valor, portanto, num agora vale 5.
+
+>30- (Step Over) Linha 16: É verificado através do if, uma condicional, se num é igual a 5, sendo a condicional verdadeira.
+
+>31- (Step OVer) Linha 17: É chamado um método recursivo chamado Mostrar, que recebe os parâmetros cont e vet, eles respectivamente com o valor de 0 e os 5 valores dados pelo usuário.
+
+>32 (Step Into) Linha 24: É mostrado uma mensagem que mostra o valor do vetor no índice com o mesmo valor do cont, neste caso, com o valor de 0.
+
+>33 (Step Out) Linha 18: É retornado o valor do método recursivo Mostrar. Além disso, após o Step Out, o método foi executado automáticamente, onde foi mostrado o valor do vetor de acordo com o índice cont, com cont aumentando 1 e cada vez que era verificado que ele não valesse 5, era executado o método de novo, até o ponto onde foi retornado.
+
+>34 (Step Over) Linha 21: Fechamendo com chaves do método recursivo Menu.
+
+>33 (Step Over) Linha 9: Fechamento do Scanner.
+
+>34 (Step Over) Linha 10: Fechamento com chaves do método de execução principal main.
+
+>Fim do programa.
