@@ -191,14 +191,14 @@
 
 >31- (Step OVer) Linha 17: É chamado um método recursivo chamado Mostrar, que recebe os parâmetros cont e vet, eles respectivamente com o valor de 0 e os 5 valores dados pelo usuário.
 
->32 (Step Into) Linha 24: É mostrado uma mensagem que mostra o valor do vetor no índice com o mesmo valor do cont, neste caso, com o valor de 0.
+>32- (Step Into) Linha 24: É mostrado uma mensagem que mostra o valor do vetor no índice com o mesmo valor do cont, neste caso, com o valor de 0.
 
->33 (Step Out) Linha 18: É retornado o valor do método recursivo Mostrar. Além disso, após o Step Out, o método foi executado automáticamente, onde foi mostrado o valor do vetor de acordo com o índice cont, com cont aumentando 1 e cada vez que era verificado que ele não valesse 5, era executado o método de novo, até o ponto onde foi retornado.
+>33- (Step Out) Linha 18: É retornado o valor do método recursivo Mostrar. Além disso, após o Step Out, o método foi executado automáticamente, onde foi mostrado o valor do vetor de acordo com o índice cont, com cont aumentando 1 e cada vez que era verificado que ele não valesse 5, era executado o método de novo, até o ponto onde foi retornado.
 
->34 (Step Over) Linha 21: Fechamendo com chaves do método recursivo Menu.
+>34- (Step Over) Linha 21: Fechamendo com chaves do método recursivo Menu.
 
->33 (Step Over) Linha 9: Fechamento do Scanner.
+>35- (Step Over) Linha 9: Fechamento do Scanner.
 
->34 (Step Over) Linha 10: Fechamento com chaves do método de execução principal main.
+>36- (Step Over) Linha 10: Fechamento com chaves do método de execução principal main.
 
 >Fim do programa.
