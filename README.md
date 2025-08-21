@@ -1,6 +1,6 @@
 # Trabalho-Implementacao_Recursiva_com_Depuracao
 
-##Alunos: Eduardo Vieira Montagna, Gabriel Paz Ribeiro e Otávio Augusto Milioni Costa.
+>Alunos: Eduardo Vieira Montagna, Gabriel Paz Ribeiro e Otávio Augusto Milioni Costa.
 
 ## Relato Step Over
 >1- Breakpoit linha 5: O Scanner é instanaciado.
